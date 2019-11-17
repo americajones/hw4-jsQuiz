@@ -1,0 +1,105 @@
+body {
+    background-color: #282828;
+    color:#41FF00;
+    font-family: 'Inconsolata', monospace;
+}
+
+#timer {
+    float: right;
+    top: 0;
+    padding-right: 20px;
+    font-size: 13px;
+}
+.gameoverpoints {
+padding: 20px;
+}
+.gameoverpoints:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+#qcontent {
+color: greenyellow;
+text-align: center;
+margin: 30px auto;
+width: 60%;
+height: 30%;
+border: 1px solid #41FF00;
+}
+
+#questionbox {
+    padding: 20px;
+    font-size: 20px;
+}
+
+#answerbox {
+    padding: 20px;
+}
+
+.answer {
+    padding: 10px;
+}
+
+.answer:hover {
+
+    background-color: green;
+    cursor: pointer;
+    
+}
+
+#highscores {
+    border: 1px solid #41FF00;
+    width:15%;
+    text-align: center;
+    padding: 15px;
+}
+
+h5{
+    padding:5px;
+}
+
+h5:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+h2 {
+    margin-bottom: 10%;
+    font-family: 'Orbitron', sans-serif;
+}
+
+#start {
+background-color: transparent;
+padding: 20px;
+font-size: 16px;
+font-family: 'Inconsolata', monospace;
+color: #41FF00;
+border: 2px solid green;
+}
+#start:hover {
+    background-color: green;
+}
+@media screen and (max-width: 620px) {
+    #timer {
+        position: relative;
+        top: 375px;
+    }
+
+}
+
+@media screen and (max-width: 420px) {
+    #qcontent {
+        width: 90%;
+    }
+    
+    #highscores {
+        width:50%;
+    }
+}
+
+@media screen and (max-width: 370px) {
+
+    h2 {
+        font-size: 90%;
+    }
+                    }
